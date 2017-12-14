@@ -53,3 +53,19 @@
  	return $obj;
  
  }
+
+
+
+ function load_macros(){
+ 	$dir = scandir("macros");
+ 	$dir = array_diff($dir, array('.','..'));
+ 	
+ 	foreach ($dir as $k=>$v){
+     
+      $file = "macros/" . $v;
+
+      require_once($file);
+
+ 	}
+
+ }

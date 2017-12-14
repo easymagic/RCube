@@ -5,6 +5,8 @@
   define('SYS_PATH', 'core/');
 
   require_once(SYS_PATH . "loader.php");
+
+  load_macros();
   
   require_once("config.php");
 

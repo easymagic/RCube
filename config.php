@@ -1,6 +1,6 @@
 <?php 
 
- define('PACKAGE_MOUNT', 'custom_app');
+ define('PACKAGE_MOUNT', 'apicollections');
 
  define('DEFAULT_THEME_PATH', 'themes/uni/');
 
